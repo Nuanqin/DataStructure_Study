@@ -18,13 +18,19 @@
     <ClCompile Include="SeqList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SingleLinkList.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="DLinkLisk.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SingleLinkList_NOT_HEAD.cpp">
+    <ClCompile Include="CLinkList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SLinkList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList_NOT_HEAD.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

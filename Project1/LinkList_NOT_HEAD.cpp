@@ -136,21 +136,21 @@ bool ReverseLink_NOT_HEAD(LinkList& L) {
 	free(L);
 	L = tmp;
 	return L;
-}//有点小问题，之后回来解决吧
+}//有点小问题，之后再回来解决
 
 
-int main() {
-	LinkList L = NULL;
-	InsertLinkListByOrder_NOT_HEAD(L, 1, 27);
-	InsertLinkListByOrder_NOT_HEAD(L, 2, 16);
-	InsertLinkListByOrder_NOT_HEAD(L, 3, 10);
-	printf("%d\t", GetElem_NOT_HEAD(L, 1)->data);
-	printf("%d\t", GetElem_NOT_HEAD(L, 2)->data);
-	printf("%d\t", GetElem_NOT_HEAD(L, 3)->data);
-	ReverseLink_NOT_HEAD(L);
-	printf("%d\t", GetElem_NOT_HEAD(L, 1)->data);
-	printf("%d\t", GetElem_NOT_HEAD(L, 2)->data);
-	printf("%d\t", GetElem_NOT_HEAD(L, 3)->data);
-
-	return 0;
-}
+//int main() {
+//	LinkList L = NULL;
+//	InsertLinkListByOrder_NOT_HEAD(L, 1, 27);
+//	InsertLinkListByOrder_NOT_HEAD(L, 2, 16);
+//	InsertLinkListByOrder_NOT_HEAD(L, 3, 10);
+//	printf("%d\t", GetElem_NOT_HEAD(L, 1)->data);
+//	printf("%d\t", GetElem_NOT_HEAD(L, 2)->data);
+//	printf("%d\t", GetElem_NOT_HEAD(L, 3)->data);
+//	ReverseLink_NOT_HEAD(L);
+//	printf("%d\t", GetElem_NOT_HEAD(L, 1)->data);
+//	printf("%d\t", GetElem_NOT_HEAD(L, 2)->data);
+//	printf("%d\t", GetElem_NOT_HEAD(L, 3)->data);
+//
+//	return 0;
+//}
