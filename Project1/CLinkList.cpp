@@ -1,3 +1,7 @@
+/*
+Ñ­»·Á´±í
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

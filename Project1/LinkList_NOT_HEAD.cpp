@@ -1,3 +1,7 @@
+/*
+无头单链表
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

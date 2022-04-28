@@ -1,7 +1,7 @@
 /**
 顺序表：顺序存储
 优：随机存取、高密存储
-缺：大片连续空间分配不方便，改变容量不方便
+缺：大片连续空间分配不方便，改变容量不方便;
 **/
 
 #include <stdio.h>
@@ -20,7 +20,7 @@ void InitList(SeqList& L) {
 	L.data = (int*)malloc(InitSize * sizeof(int));
 	L.Length = 0;
 	L.Maxsize = InitSize;
-}
+}//动态初始化使用malloc函数进行，需手动free
 
 
 void IncreaseList(SeqList& L, int len) {
