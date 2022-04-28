@@ -1,5 +1,5 @@
 /*
-循环链表
+* 循环链表
 */
 
 #include <stdio.h>
@@ -58,7 +58,7 @@ bool IsCDLinkTail(DLinkList L, DNode* t) {
 }
 
 
-bool InsertDLinkAtNode(DNode* s, DNode* pos) {
+bool InsertCLinkAtNode(DNode* s, DNode* pos) {
 	if (s == NULL || pos == NULL) {
 		return false;
 	}

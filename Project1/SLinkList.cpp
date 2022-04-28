@@ -1,8 +1,8 @@
-/**
-静态链表：数组方式实现的链表
-优：crud操作不用大量移动指针
-缺：无法随机存取，容量固定;
-**/
+/*
+* 静态链表：数组方式实现的链表
+* 优：crud操作不用大量移动指针
+* 缺：无法随机存取，容量固定;
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -29,7 +29,7 @@ bool InitSLinkList(SLinkList &L) {
 插入
 */
 bool InsertSLinkList(SLinkList &L, int pos, int value){
-	if (isSLinkListFull) {
+	if (pos < 1){
 		return false;
 	}
 	for (int i = 0; i < MAXSIZE; i++) {
