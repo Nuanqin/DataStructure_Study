@@ -3,8 +3,8 @@
 
 typedef struct DNode {
 	int data;
-	struct DNode* prior, * next;
-}DNode, * DLinkList;
+	struct DNode *prior, *next;
+}DNode, *DLinkList;
 
 
 bool InitDLinkList(DLinkList& L) {
@@ -12,8 +12,8 @@ bool InitDLinkList(DLinkList& L) {
 	if (L == NULL) {
 		return false;
 	}
-	L->next = NULL;
 	L->prior = NULL;
+	L->next = NULL;
 	return true;
 }
 
@@ -32,5 +32,11 @@ bool InsertDLinkAtNode(DNode* s, DNode* pos) {
 	if (s == NULL || pos == NULL) {
 		return false;
 	}
-
+	s->next = pos->next;
+	if (pos->next != NULL) {
+		pos->next->prior = s;
+	}
+	s->prior = pos;
+	pos->next = s;
+	return true;
 }

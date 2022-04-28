@@ -136,7 +136,7 @@ bool ReverseLink_NOT_HEAD(LinkList& L) {
 	free(L);
 	L = tmp;
 	return L;
-}
+}//有点小问题，之后回来解决吧
 
 
 int main() {
