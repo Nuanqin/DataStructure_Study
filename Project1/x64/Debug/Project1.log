@@ -1,5 +1,0 @@
-﻿D:\VisualStudio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project1.vcxproj, 顺序表.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-  CLinkList.cpp
-C:\Users\Admin\source\repos\DataStructure_Study\Project1\CLinkList.cpp(51): warning C4715: “IsCDLinkListEmpty”: 不是所有的控件路径都返回值
-C:\Users\Admin\source\repos\DataStructure_Study\Project1\CLinkList.cpp(58): warning C4715: “IsCDLinkTail”: 不是所有的控件路径都返回值
-  Project1.vcxproj -> C:\Users\Admin\source\repos\DataStructure_Study\x64\Debug\LinearList.exe
