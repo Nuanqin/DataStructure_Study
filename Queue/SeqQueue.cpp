@@ -102,7 +102,7 @@ int GetSqQueueSize(SqQueue Q){
 }
 
 
-void main() {
+//void main() {
 	//SqQueue Q;
 	//int e = 9;
 	//InitSqQueue(Q);
@@ -123,4 +123,4 @@ void main() {
 	//printf("%d\t", b);
 	//e = (int)IsSqQueueEmpty(Q);
 	//printf("%d\t", e);
-}
+//}
