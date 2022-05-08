@@ -1,6 +1,6 @@
 /*
 * 无头单链表
-* status: Issue
+* status: SomeQuestion
 */
 
 #include <stdio.h>

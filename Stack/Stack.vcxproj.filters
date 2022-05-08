@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SequentialStack.cpp">
+    <ClCompile Include="SeqStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="LinkStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SuffixStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrefixStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

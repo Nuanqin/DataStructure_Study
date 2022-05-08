@@ -1,10 +1,12 @@
 ﻿  LinkStack.cpp
-E:\DataStructure_Study\Stack\LinkStack.cpp(76,12): warning C4326: “main”的返回类型应为“int”而非“void”
-  SequentialStack.cpp
-E:\DataStructure_Study\Stack\SequentialStack.cpp(1,1): warning C4828: 文件包含在偏移 0x6ea 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
-E:\DataStructure_Study\Stack\SequentialStack.cpp(72,6): warning C4551: 缺少参数列表的函数调用
-E:\DataStructure_Study\Stack\SequentialStack.cpp(82,6): warning C4551: 缺少参数列表的函数调用
+  SeqStack.cpp
+E:\DataStructure_Study\Stack\SeqStack.cpp(1,1): warning C4828: 文件包含在偏移 0xa77 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+E:\DataStructure_Study\Stack\SeqStack.cpp(73,6): warning C4551: 缺少参数列表的函数调用
+E:\DataStructure_Study\Stack\SeqStack.cpp(84,6): warning C4551: 缺少参数列表的函数调用
+E:\DataStructure_Study\Stack\SeqStack.cpp(130,13): warning C4326: “main”的返回类型应为“int”而非“void”
   正在生成代码...
-E:\DataStructure_Study\Stack\SequentialStack.cpp(86): warning C4715: “GetTopElem”: 不是所有的控件路径都返回值
-E:\DataStructure_Study\Stack\SequentialStack.cpp(76): warning C4715: “Pop”: 不是所有的控件路径都返回值
+  SuffixStack.cpp
+E:\DataStructure_Study\Stack\SuffixStack.cpp(58,19): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+  PrefixStack.cpp
+  正在生成代码...
   Stack.vcxproj -> E:\DataStructure_Study\x64\Debug\Stack.exe

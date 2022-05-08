@@ -1,6 +1,6 @@
 /*
 * ¡¥±Ì µœ÷’ª
-* status: Issue
+* status: SomeQuestion
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -77,4 +77,4 @@ int GetLinkStackTopElem(LinkStack S) {
 
 
 
-void main(){}
+//void main(){}
